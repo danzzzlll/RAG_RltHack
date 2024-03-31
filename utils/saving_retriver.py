@@ -2,6 +2,7 @@ import pandas as pd
 from ranking import MyExistingRetrievalPipeline
 
 def name():
+    path_to_csv_data = ''
     data = pd.read_csv(path_to_csv_data)
 
     existing_pipeline = MyExistingRetrievalPipeline()
