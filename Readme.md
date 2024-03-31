@@ -14,12 +14,13 @@
 
 Для развертывания нашего решения выполните следующие шаги:
 
-```bash```
+```bash
 git clone https://github.com/danzzzlll/RAG_RltHack.git
 cd RAG_RltHack
 pip install -r requirements.txt
 python ./utils/saving_retriever # Для получения и сохранения индексов
 streamlit run main.py
+```
 
 ## Подход к решению
 
